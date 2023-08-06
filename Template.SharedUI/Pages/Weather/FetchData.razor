@@ -1,6 +1,6 @@
 ﻿@page "/fetchdata"
 @using Template.Shared
-@inject HttpClient Http
+@inject IWeatherForecastService WeatherService
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -42,6 +42,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        forecasts = await WeatherService.GetWeatherForecastAsync();
     }
 }
