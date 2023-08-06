@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using Template.MAUI.Data;
+using Template.MAUI.Services;
+using Template.SharedUI.Pages.Weather;
 
 namespace Template.MAUI
 {
@@ -21,8 +22,8 @@ namespace Template.MAUI
 		builder.Services.AddBlazorWebViewDeveloperTools();
 		builder.Logging.AddDebug();
 #endif
-
-            builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7025/") });
+            builder.Services.AddSingleton<IWeatherForecastService, WeatherForecastServiceMAUI>();
 
             return builder.Build();
         }
