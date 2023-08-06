@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Client", "Template
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Shared", "Template\Shared\Template.Shared.csproj", "{DEB17481-2FC9-4CAF-8392-DFD74DA3610A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.SharedUI", "Template.SharedUI\Template.SharedUI.csproj", "{7D5543F8-CE2F-4CFE-B41E-70CD8EDBBE5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DEB17481-2FC9-4CAF-8392-DFD74DA3610A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEB17481-2FC9-4CAF-8392-DFD74DA3610A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEB17481-2FC9-4CAF-8392-DFD74DA3610A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5543F8-CE2F-4CFE-B41E-70CD8EDBBE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5543F8-CE2F-4CFE-B41E-70CD8EDBBE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5543F8-CE2F-4CFE-B41E-70CD8EDBBE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5543F8-CE2F-4CFE-B41E-70CD8EDBBE5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
