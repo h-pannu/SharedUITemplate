@@ -22,7 +22,7 @@ namespace Template.MAUI
 		builder.Services.AddBlazorWebViewDeveloperTools();
 		builder.Logging.AddDebug();
 #endif
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7025/") });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://ckhp49fh-7025.usw3.devtunnels.ms/") });
             builder.Services.AddSingleton<IWeatherForecastService, WeatherForecastServiceMAUI>();
 
             return builder.Build();
