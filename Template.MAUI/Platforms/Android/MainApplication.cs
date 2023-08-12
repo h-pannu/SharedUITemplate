@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Template.MAUI
+namespace $ext_projectname$.MAUI
 {
     [Application]
     public class MainApplication : MauiApplication

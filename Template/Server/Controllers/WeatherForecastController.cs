@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Template.Shared;
+using $ext_projectname$.Shared;
 
-namespace Template.Server.Controllers
+namespace $ext_projectname$.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]

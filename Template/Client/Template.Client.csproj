@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Template.SharedUI\Template.SharedUI.csproj" />
-    <ProjectReference Include="..\Shared\Template.Shared.csproj" />
+    <ProjectReference Include="..\..\$ext_projectname$.SharedUI\$ext_projectname$.SharedUI.csproj" />
+    <ProjectReference Include="..\Shared\$ext_projectname$.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

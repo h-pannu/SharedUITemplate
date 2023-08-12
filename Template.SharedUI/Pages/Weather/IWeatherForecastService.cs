@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Template.Shared;
+using $ext_projectname$.Shared;
 
-namespace Template.SharedUI.Pages.Weather
+namespace $ext_projectname$.SharedUI.Pages.Weather
 {
     public interface IWeatherForecastService
     {

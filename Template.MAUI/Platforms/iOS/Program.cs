@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Template.MAUI
+namespace $ext_projectname$.MAUI
 {
     public class Program
     {

@@ -1,9 +1,9 @@
 ﻿using System.Net.Http.Json;
-using Template.Shared;
-using Template.SharedUI.Pages.Weather;
+using $ext_projectname$.Shared;
+using $ext_projectname$.SharedUI.Pages.Weather;
 using static System.Net.WebRequestMethods;
 
-namespace Template.Client.Services
+namespace $ext_projectname$.Client.Services
 {
     public class WeatherForecastService : IWeatherForecastService
     {

@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Template.MAUI
+namespace $ext_projectname$.MAUI
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

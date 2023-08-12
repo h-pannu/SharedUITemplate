@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Template\Shared\Template.Shared.csproj" />
+    <ProjectReference Include="..\Template\Shared\$ext_projectname$.Shared.csproj" />
   </ItemGroup>
 
 </Project>

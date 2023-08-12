@@ -1,4 +1,4 @@
-namespace Template.Shared
+namespace $ext_projectname$.Shared
 {
     public class WeatherForecast
     {

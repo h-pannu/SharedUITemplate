@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using Template.MAUI.Services;
-using Template.SharedUI.Pages.Weather;
+using $ext_projectname$.MAUI.Services;
+using $ext_projectname$.SharedUI.Pages.Weather;
 
-namespace Template.MAUI
+namespace $ext_projectname$.MAUI
 {
     public static class MauiProgram
     {

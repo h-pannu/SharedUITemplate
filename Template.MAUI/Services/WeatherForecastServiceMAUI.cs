@@ -4,10 +4,10 @@ using System.Linq;
 using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
-using Template.Shared;
-using Template.SharedUI.Pages.Weather;
+using $ext_projectname$.Shared;
+using $ext_projectname$.SharedUI.Pages.Weather;
 
-namespace Template.MAUI.Services
+namespace $ext_projectname$.MAUI.Services
 {
     public class WeatherForecastServiceMAUI : IWeatherForecastService
     {

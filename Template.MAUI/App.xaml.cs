@@ -1,4 +1,4 @@
-﻿namespace Template.MAUI
+﻿namespace $ext_projectname$.MAUI
 {
     public partial class App : Application
     {

@@ -8,7 +8,7 @@
       }
     },
     "profiles": {
-      "Template.Server": {
+      "$ext_projectname$.Server": {
         "commandName": "Project",
         "dotnetRunMessages": true,
         "launchBrowser": true,

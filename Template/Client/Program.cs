@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Template.Client;
-using Template.Client.Services;
-using Template.SharedUI.Pages.Weather;
+using $ext_projectname$.Client;
+using $ext_projectname$.Client.Services;
+using $ext_projectname$.SharedUI.Pages.Weather;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");

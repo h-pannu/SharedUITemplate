@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\Template.Client.csproj" />
-    <ProjectReference Include="..\Shared\Template.Shared.csproj" />
+    <ProjectReference Include="..\Client\$ext_projectname$.Client.csproj" />
+    <ProjectReference Include="..\Shared\$ext_projectname$.Shared.csproj" />
   </ItemGroup>
 
 
