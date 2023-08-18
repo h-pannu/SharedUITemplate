@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Template.WebAPI.Data;
@@ -10,6 +11,10 @@ var templateConnectionString = builder.Configuration.GetConnectionString("Templa
 builder.Services.AddDbContext<TemplateDBContext>(options => options.UseSqlServer(templateConnectionString));
 
 builder.Services.AddIdentity<Users, IdentityRole>().AddEntityFrameworkStores<TemplateDBContext>();
+
+// Configured Auto mappers
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+//builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 // Add services to the container.
 
