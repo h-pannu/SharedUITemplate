@@ -1,4 +1,15 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Template.WebAPI.Data;
+using Template.WebAPI.DBContext;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Configuring Connection String
+var templateConnectionString = builder.Configuration.GetConnectionString("TemplateCS");
+builder.Services.AddDbContext<TemplateDBContext>(options => options.UseSqlServer(templateConnectionString));
+
+builder.Services.AddIdentity<Users, IdentityRole>().AddEntityFrameworkStores<TemplateDBContext>();
 
 // Add services to the container.
 
