@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Server", "Template\Server\Template.Server.csproj", "{CDB2A719-FBBB-47EF-8D6C-9C4A702EF0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Server", "Template\Server\Template.Server.csproj", "{CDB2A719-FBBB-47EF-8D6C-9C4A702EF0CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Client", "Template\Client\Template.Client.csproj", "{E6B5B5D5-8389-4E03-AC49-391893C2CCF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Client", "Template\Client\Template.Client.csproj", "{E6B5B5D5-8389-4E03-AC49-391893C2CCF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Shared", "Template\Shared\Template.Shared.csproj", "{DEB17481-2FC9-4CAF-8392-DFD74DA3610A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Shared", "Template\Shared\Template.Shared.csproj", "{DEB17481-2FC9-4CAF-8392-DFD74DA3610A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.SharedUI", "Template.SharedUI\Template.SharedUI.csproj", "{7D5543F8-CE2F-4CFE-B41E-70CD8EDBBE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.SharedUI", "Template.SharedUI\Template.SharedUI.csproj", "{7D5543F8-CE2F-4CFE-B41E-70CD8EDBBE5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.MAUI", "Template.MAUI\Template.MAUI.csproj", "{AA2A5E0F-8C75-4F09-A180-E664B5D5D1D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.MAUI", "Template.MAUI\Template.MAUI.csproj", "{AA2A5E0F-8C75-4F09-A180-E664B5D5D1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.WebAPI", "Template.WebAPI\Template.WebAPI.csproj", "{8DC6D9B4-D12C-48F1-BD62-E8DEF151DC8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{AA2A5E0F-8C75-4F09-A180-E664B5D5D1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2A5E0F-8C75-4F09-A180-E664B5D5D1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA2A5E0F-8C75-4F09-A180-E664B5D5D1D0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8DC6D9B4-D12C-48F1-BD62-E8DEF151DC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC6D9B4-D12C-48F1-BD62-E8DEF151DC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC6D9B4-D12C-48F1-BD62-E8DEF151DC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC6D9B4-D12C-48F1-BD62-E8DEF151DC8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
