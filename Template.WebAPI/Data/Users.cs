@@ -11,9 +11,9 @@ namespace Template.WebAPI.Data
         [MaxLength(50)]
         public string LastName { get; set; } = null!;
 
-
         [MaxLength(6)]
         public string Gender { get; set; } = null!;
+
         public string? Address { get; set; }
     }
 }
